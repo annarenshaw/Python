@@ -1,0 +1,28 @@
+def hello(name):
+    print(f"Hello {name}!")
+
+hello('Anna')
+
+def add_numbers(num1, num2):
+    print(num1 + num2)
+
+add_numbers(2345,67856)
+
+def dog_info(name, age):
+    print(f"My dog's name is {name} and they are {age} years old.")
+
+
+dog_info("Ripley", 6)
+
+def double(number):
+    return number * 2
+
+new_number = double(5)
+
+print(new_number)
+
+def caps(text):
+    return text.upper()
+
+print(caps("anna"))
+
